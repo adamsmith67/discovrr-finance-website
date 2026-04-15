@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin-dashboard.css">
+</head>
+<body>
+    <h1>Admin Login</h1>
+    <form id="login">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <div id="admin-panel" style="display:none;">
+        <h2>Admin Panel</h2>
+        <h3>Client Management</h3>
+        <h3>Loan Tracking</h3>
+        <h3>Payment Management</h3>
+    </div>
+    <script src="js/admin-dashboard.js"></script>
+</body>
+</html>
